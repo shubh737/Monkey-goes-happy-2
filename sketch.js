@@ -19,7 +19,7 @@ function preload() {
 
 
 function setup() {
-  createCanvas(600, 600)
+  createCanvas(canvasWidth, canvasHeight)
 
   bground = createSprite(200, 200, 800, 429);
   bground.x = bground.width/2 ;
